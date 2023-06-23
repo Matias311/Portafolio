@@ -1,0 +1,67 @@
+.titulo {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulo__container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 751px;
+    height: 246px;
+}
+
+.titulo__titulo {
+
+    width: 800px;
+    height: 122px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    align-self: stretch;
+    
+}
+
+.titulo__sobre-mi {
+
+    width: 680px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+
+}
+
+.titulo__lista {
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 346px;
+    height: 24px;
+
+}
+
+.titulo__lista-nombre {
+
+    text-decoration: none;
+    color: black;
+}
+
+.titulo__imagen {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+
+}

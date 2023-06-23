@@ -1,0 +1,41 @@
+.sobremi {
+
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    margin-bottom: 40px;
+    background: #EAF2FD;
+    padding: 64px;    
+}
+
+.sobremi__container {
+
+    padding: 0px 100px 0px 200px;
+    
+}
+
+.sobremi__titulo {
+    width: 137px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    
+}
+
+.sobremi__parrafo {
+    width: 800px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.6px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.sobremi__firma {
+
+    width: 200px;
+    height: 200px;
+}

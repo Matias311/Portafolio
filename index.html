@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header/header.css" />
+    <link rel="stylesheet" href="titulo/titulo.css" />
+    <link rel="stylesheet" href="sobre-mi/sobre-mi.css" />
+    <link rel="stylesheet" href="Skill/skill.css" />
+    <link rel="stylesheet" href="educacion/educacion.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__div-icono">
+        <h4 class="header__nombre">Matias Arias</h4>
+        <img src="Imagenes/vector.png" alt="icono" class="header__logo" />
+      </div>
+      <ul class="header__lista">
+        <li><a href="#" class="header__lista-nombre">Sobre mi</a></li>
+        <li><a href="#" class="header__lista-nombre">Skills</a></li>
+        <li><a href="#" class="header__lista-nombre">Hobbies</a></li>
+        <li><a href="#" class="header__lista-nombre">Formación</a></li>
+        <li><a href="#" class="header__lista-nombre">Proyectos</a></li>
+        <li><a href="#" class="header__lista-nombre">Contacto</a></li>
+      </ul>
+    </header>
+    <section class="titulo">
+      <div class="titulo__container">
+        <h2 class="titulo__titulo">
+          Mi nombre es Matias Arias y soy desarrollador Web
+        </h2>
+        <p class="titulo__sobre-mi">
+          Actualmente estudiante de administracion de empresas y en busqueda de
+          oportunidades en el mundo laboral.
+        </p>
+        <ul class="titulo__lista">
+          <li>
+            <a href="#" class="titulo__lista-nombre"
+              >Github<img src="Imagenes/arrow.png" alt="arrow"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="titulo__lista-nombre"
+              >Linkedin<img src="Imagenes/arrow.png" alt="arrow"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="titulo__lista-nombre"
+              >Curriculum<img src="Imagenes/arrow.png" alt="arrow"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <img src="Imagenes/yo.jpeg" alt="persona" class="titulo__imagen" />
+    </section>
+    <section class="sobremi">
+      <div class="sobremi__container">
+        <h3 class="sobremi__titulo">Sobre mi</h3>
+        <p class="sobremi__parrafo">
+          Apacionado por la tecnologia, emprendimiento y las finanzas
+          personales. Me encanta el desarrollo personal y los desafios, intento
+          mejorar día a día para lograr mis objetivos y ser una mejor persona
+          tanto fisica, espiritual y financieramente.
+        </p>
+        <img
+          src="Imagenes/firma.jpeg"
+          alt="firma profecional"
+          class="sobremi__firma"
+        />
+      </div>
+    </section>
+    <section class="skill">
+      <h1 class="skill__titulo">Skills</h1>
+      <div class="skill__estudio">
+        <div class="skill_html">
+          <img src="Imagenes/html-icon.png" alt="logo html" />
+          <h3>HTML 5</h3>
+        </div>
+        <div class="skill_css">
+          <img src="Imagenes/css-icono.png" alt="logo css" />
+          <h3>CSS</h3>
+        </div>
+        <div class="skill_js">
+          <img src="Imagenes/js-icono.png" alt="logo Javascript" />
+          <h3>Javascript</h3>
+        </div>
+      </div>
+    </section>
+    <section class="education">
+      <h1 class="education__titulo">Formacion academica</h1>
+      <div class="education__study">
+        <div class="education__alura">
+          <div class="education__alura-imagen">
+            <img src="Imagenes/alura_logo.png" alt="alura_logo" />
+          </div>
+          <h3>Formacion desarrollador front-end</h3>
+          <p>2023 - alura</p>
+        </div>
+        <div class="education__universidad">
+          <div class="education__uni-imagen"><img src="Imagenes/logo-andresbello.png" alt="logo-universidad" /></div>
+          <h3>Administracion de empresas mencion en finanzas</h3>
+          <p>Aun en curso - Universidad Andres Bello</p>
+        </div>
+        <div class="education__coder">
+          <div class="education__coder-imagen"><img src="Imagenes/logo-andresbello.png" alt="logo-universidad" /></div>
+          <h3>Administracion de empresas mencion en finanzas</h3>
+          <p>Aun en curso - Universidad Andres Bello</p>
+        </div>
+      </div>
+    </section>
+    <section class="proyectos">
+      <h1 class="proyectos__titulo">Experiencia profesional</h1>
+      <div class="proyecto__1">
+        <img src="" alt="pagina-demo" />
+        <h4>Encriptador de texto</h4>
+        <p>Challenge Oracle</p>
+        <button><a href="#">Repositorio</a></button>
+        <button><a href="#">Ver demo</a></button>
+      </div>
+    </section>
+    <section class="contacto">
+      <h1>Contacto</h1>
+      <p>
+        ¿Quieres contactarme? Complete el siguiente formulario y me pondré en
+        contacto con usted lo antes posible.
+      </p>
+      <div>
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="user_mail" />
+            </li>
+            <li>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+          </ul>
+          <button>Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>Diseñado por Matias Arias</p>
+      <p>2023</p>
+    </footer>
+  </body>
+</html>

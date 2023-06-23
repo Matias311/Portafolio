@@ -1,0 +1,37 @@
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    width: 90vw;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header__div-icono {
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2px;
+    
+}
+
+.header__logo {
+    width: 15px;
+    height: 15px;
+}
+
+.header__lista {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.header__lista-nombre {
+
+    text-decoration: none;
+    color: black;
+
+}

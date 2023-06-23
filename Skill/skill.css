@@ -1,0 +1,76 @@
+.skill {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.skill__estudio {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+    width: 100vw;
+    height: 244px;
+    margin-top: 20px;
+
+}
+
+.skill__titulo {
+
+    width: 82px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+}
+
+.skill_html {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background-color: aliceblue;
+}
+
+
+.skill_css {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background-color: aliceblue;
+
+}
+
+.skill_js {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background-color: aliceblue;
+
+}
+
+
