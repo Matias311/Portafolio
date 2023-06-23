@@ -1,0 +1,164 @@
+.contacto {
+
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    height: 788px;
+    gap: 10px;
+    background-color: aliceblue;
+
+}
+
+.contacto__imagen-contacto {
+
+    width: 464px;
+    height: 593px;
+
+}
+
+.contacto__container-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 656px;
+    height: 596px;
+
+}
+
+.contacto__container-form-texto {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 30px;
+
+}
+
+.contacto__container-titulo {
+
+    width: 141px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+}
+
+.contacto__container-parrafo {
+
+    width: 656px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.contacto-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 656px;
+    height: 360px;
+}
+
+.form__name {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 656px;
+    height: 56px;
+
+}
+
+#name {
+
+    width: 656px;
+    height: 56px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0px 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.form__email {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 656px;
+    height: 56px;
+
+}
+
+#mail {
+
+    width: 656px;
+    height: 56px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0px 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.form__msg {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 656px;
+    height: 160px;
+
+}
+
+#msg {
+
+    width: 656px;
+    height: 160px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.form__btn {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    height: 51px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+

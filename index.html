@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="sobre-mi/sobre-mi.css" />
     <link rel="stylesheet" href="Skill/skill.css" />
     <link rel="stylesheet" href="educacion/educacion.css" />
+    <link rel="stylesheet" href="Proyectos/proyectos.css" />
+    <link rel="stylesheet" href="contacto/contacto.css" />
+    <link rel="stylesheet" href="footer/footer.css" />
   </head>
   <body>
     <header class="header">
@@ -105,12 +108,16 @@
           <p>2023 - alura</p>
         </div>
         <div class="education__universidad">
-          <div class="education__uni-imagen"><img src="Imagenes/logo-andresbello.png" alt="logo-universidad" /></div>
+          <div class="education__uni-imagen">
+            <img src="Imagenes/logo-andresbello.png" alt="logo-universidad" />
+          </div>
           <h3>Administracion de empresas mencion en finanzas</h3>
           <p>Aun en curso - Universidad Andres Bello</p>
         </div>
         <div class="education__coder">
-          <div class="education__coder-imagen"><img src="Imagenes/logo-andresbello.png" alt="logo-universidad" /></div>
+          <div class="education__coder-imagen">
+            <img src="Imagenes/logo-andresbello.png" alt="logo-universidad" />
+          </div>
           <h3>Administracion de empresas mencion en finanzas</h3>
           <p>Aun en curso - Universidad Andres Bello</p>
         </div>
@@ -119,42 +126,76 @@
     <section class="proyectos">
       <h1 class="proyectos__titulo">Experiencia profesional</h1>
       <div class="proyecto__1">
-        <img src="" alt="pagina-demo" />
-        <h4>Encriptador de texto</h4>
-        <p>Challenge Oracle</p>
-        <button><a href="#">Repositorio</a></button>
-        <button><a href="#">Ver demo</a></button>
+        <img
+          src="Imagenes/proyecto-encriptador.png"
+          alt="pagina-demo"
+          class="proyecto__1-imagen"
+        />
+        <div class="proyecto__1-titulo">
+          <h4>Encriptador de texto</h4>
+          <p>Challenge Oracle</p>
+          <div class="proyecto__1-botones">
+            <button class="proyecto__1-botones-repositorio">
+              <a href="#" class="proyecto__1-titulo-boton-repositorio"
+                >Repositorio</a
+              >
+            </button>
+            <button class="proyecto__1-botones-demo">
+              <a href="#" class="proyecto__1-titulo-boton-demo">Ver demo</a>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
     <section class="contacto">
-      <h1>Contacto</h1>
-      <p>
-        ¿Quieres contactarme? Complete el siguiente formulario y me pondré en
-        contacto con usted lo antes posible.
-      </p>
-      <div>
+      <div class="contacto__imagen">
+        <img
+          src="Imagenes/contact_image.png"
+          alt="contacto"
+          class="contacto__imagen-contacto"
+        />
+      </div>
+      <div class="contacto__container-form">
+        <div class="contacto__container-form-texto">
+          <h1 class="contacto__container-titulo">Contacto</h1>
+          <p class="contacto__container-parrafo">
+            ¿Quieres contactarme? Complete el siguiente formulario y me pondré
+            en contacto con usted lo antes posible.
+          </p>
+        </div>
         <form action="/my-handling-form-page" method="post">
-          <ul>
-            <li>
-              <label for="name">Nombre:</label>
-              <input type="text" id="name" name="user_name" />
+          <ul class="contacto-form">
+            <li class="form__name">
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                placeholder="Nombre"
+              />
             </li>
-            <li>
-              <label for="mail">Correo electrónico:</label>
-              <input type="email" id="mail" name="user_mail" />
+            <li class="form__email">
+              <input
+                type="email"
+                id="mail"
+                name="user_mail"
+                placeholder="Correo electrónico"
+              />
             </li>
-            <li>
-              <label for="msg">Mensaje:</label>
-              <textarea id="msg" name="user_message"></textarea>
+            <li class="form__msg">
+              <textarea
+                id="msg"
+                name="user_message"
+                placeholder="Mensaje"
+              ></textarea>
             </li>
           </ul>
-          <button>Enviar mensaje</button>
+          <button class="form__btn">Enviar mensaje</button>
         </form>
       </div>
     </section>
-    <footer>
-      <p>Diseñado por Matias Arias</p>
-      <p>2023</p>
+    <footer class="footer">
+        <p>Diseñado por Matias Arias</p>
+        <p>2023</p>
     </footer>
   </body>
 </html>
