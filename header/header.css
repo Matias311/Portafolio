@@ -3,10 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 2rem;
-    width: 90vw;
+    padding: 1rem 8rem;
+    height: 50px;
+    background-color: #243141;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    color: #EEF4ED;
 
 }
 
@@ -32,6 +34,7 @@
 .header__lista-nombre {
 
     text-decoration: none;
-    color: black;
+    font-size: 15px;
+    color: #EEF4ED;
 
 }

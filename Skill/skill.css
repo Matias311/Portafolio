@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #243141;
 
 }
 
@@ -28,6 +29,8 @@
     font-size: 32px;
     line-height: 38px;
     text-align: center;
+    color: #eef4ed;
+    
 
 }
 
@@ -41,7 +44,25 @@
     gap: 8px;
     width: 176px;
     height: 174px;
-    background-color: aliceblue;
+    background: rgba(238, 244, 237, 0.992157);
+}
+
+.html-icono {
+
+    width: 37px;
+    height: 37px;
+
+}
+
+.html-name {
+
+    width: 144px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4b6387;
 }
 
 
@@ -55,8 +76,26 @@
     gap: 8px;
     width: 176px;
     height: 174px;
-    background-color: aliceblue;
+    background: rgba(238, 244, 237, 0.992157);
 
+}
+
+.css-icono {
+
+    width: 37px;
+    height: 37px;
+
+}
+
+.css-name {
+
+    width: 144px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4b6387;
 }
 
 .skill_js {
@@ -69,8 +108,26 @@
     gap: 8px;
     width: 176px;
     height: 174px;
-    background-color: aliceblue;
+    background: rgba(238, 244, 237, 0.992157);
 
+}
+
+.js-icono {
+
+    width: 37px;
+    height: 37px;
+
+}
+
+.js-name {
+
+    width: 144px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4b6387;
 }
 
 

@@ -24,12 +24,11 @@
     <header class="header">
       <div class="header__div-icono">
         <h4 class="header__nombre">Matias Arias</h4>
-        <img src="Imagenes/vector.png" alt="icono" class="header__logo" />
+        <img src="Imagenes/zorro.png" alt="icono" class="header__logo" />
       </div>
       <ul class="header__lista">
         <li><a href="#" class="header__lista-nombre">Sobre mi</a></li>
         <li><a href="#" class="header__lista-nombre">Skills</a></li>
-        <li><a href="#" class="header__lista-nombre">Hobbies</a></li>
         <li><a href="#" class="header__lista-nombre">Formación</a></li>
         <li><a href="#" class="header__lista-nombre">Proyectos</a></li>
         <li><a href="#" class="header__lista-nombre">Contacto</a></li>
@@ -37,32 +36,39 @@
     </header>
     <section class="titulo">
       <div class="titulo__container">
-        <h2 class="titulo__titulo">
-          Mi nombre es Matias Arias y soy desarrollador Web
-        </h2>
+        <img src="Imagenes/yo.jpeg" alt="persona" class="titulo__imagen" />
+        <h2 class="titulo__titulo">Hey, Soy Matias Arias</h2>
         <p class="titulo__sobre-mi">
-          Actualmente estudiante de administracion de empresas y en busqueda de
-          oportunidades en el mundo laboral.
+          Actualmente estudiante de administracion de empresas y desarrollador
+          web.
         </p>
         <ul class="titulo__lista">
           <li>
             <a href="#" class="titulo__lista-nombre"
-              >Github<img src="Imagenes/arrow.png" alt="arrow"
+              >Github<img
+                class="titulo__lista-imagen"
+                src="Imagenes/Vector.png"
+                alt="arrow"
             /></a>
           </li>
           <li>
             <a href="#" class="titulo__lista-nombre"
-              >Linkedin<img src="Imagenes/arrow.png" alt="arrow"
+              >Linkedin<img
+                class="titulo__lista-imagen"
+                src="Imagenes/Vector.png"
+                alt="arrow"
             /></a>
           </li>
           <li>
             <a href="#" class="titulo__lista-nombre"
-              >Curriculum<img src="Imagenes/arrow.png" alt="arrow"
+              >Curriculum<img
+                class="titulo__lista-imagen"
+                src="Imagenes/Vector.png"
+                alt="arrow"
             /></a>
           </li>
         </ul>
       </div>
-      <img src="Imagenes/yo.jpeg" alt="persona" class="titulo__imagen" />
     </section>
     <section class="sobremi">
       <div class="sobremi__container">
@@ -84,16 +90,24 @@
       <h1 class="skill__titulo">Skills</h1>
       <div class="skill__estudio">
         <div class="skill_html">
-          <img src="Imagenes/html-icon.png" alt="logo html" />
-          <h3>HTML 5</h3>
+          <img
+            class="html-icono"
+            src="Imagenes/html-icono.png"
+            alt="logo html"
+          />
+          <h3 class="html-name">HTML 5</h3>
         </div>
         <div class="skill_css">
-          <img src="Imagenes/css-icono.png" alt="logo css" />
-          <h3>CSS</h3>
+          <img class="css-icono" src="Imagenes/css-icono.png" alt="logo css" />
+          <h3 class="css-name">CSS</h3>
         </div>
         <div class="skill_js">
-          <img src="Imagenes/js-icono.png" alt="logo Javascript" />
-          <h3>Javascript</h3>
+          <img
+            class="js-icono"
+            src="Imagenes/js-icono.png"
+            alt="logo Javascript"
+          />
+          <h3 class="js-name">Javascript</h3>
         </div>
       </div>
     </section>
@@ -148,20 +162,10 @@
       </div>
     </section>
     <section class="contacto">
-      <div class="contacto__imagen">
-        <img
-          src="Imagenes/contact_image.png"
-          alt="contacto"
-          class="contacto__imagen-contacto"
-        />
-      </div>
+      <div class="contacto__imagen"></div>
       <div class="contacto__container-form">
         <div class="contacto__container-form-texto">
           <h1 class="contacto__container-titulo">Contacto</h1>
-          <p class="contacto__container-parrafo">
-            ¿Quieres contactarme? Complete el siguiente formulario y me pondré
-            en contacto con usted lo antes posible.
-          </p>
         </div>
         <form action="/my-handling-form-page" method="post">
           <ul class="contacto-form">
@@ -189,13 +193,13 @@
               ></textarea>
             </li>
           </ul>
-          <button class="form__btn">Enviar mensaje</button>
+          <button class="form__btn-texto">Enviar mensaje</button>
         </form>
       </div>
     </section>
     <footer class="footer">
-        <p>Diseñado por Matias Arias</p>
-        <p>2023</p>
+      <p>Diseñado por Matias Arias</p>
+      <p>2023</p>
     </footer>
   </body>
 </html>
