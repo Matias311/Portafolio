@@ -4,10 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 61px 12px;
+    padding: 130px 0px 50px 0px;
     gap: 9px;
     height: 700px;
-    box-shadow: inset 200px 50px 40px rgb(0, 0, 0);
+    width: 100vw;
+    box-shadow: inset 10px 20px 30px rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     background-image: url(../Imagenes/prueba\ fondo\ .jpeg);
@@ -74,7 +75,13 @@
     font-size: 16px;
     line-height: 19px;
     color: #EEF4ED;
+    transition: .5s;
 
+}
+
+.titulo__lista-nombre:hover {
+
+    color: #999999;
 }
 
 .titulo__lista-imagen {

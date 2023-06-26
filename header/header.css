@@ -1,10 +1,12 @@
 .header {
 
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 8rem;
     height: 50px;
+    width: 90%;
     background-color: #243141;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -36,5 +38,18 @@
     text-decoration: none;
     font-size: 15px;
     color: #EEF4ED;
+    transition: .5s;
 
+}
+
+.header__lista-nombre:hover {
+
+    color: #999999;
+}
+
+.responsive-menu {
+
+    width: 20px;
+    height: 20px;
+    display: none;
 }
