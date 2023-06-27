@@ -737,7 +737,7 @@ body {
 
         flex-direction: row;
         width: 70%;
-        justify-content: space-between;
+        justify-content: space-around;
 
     }
 
