@@ -807,7 +807,8 @@ body {
         font-size: 15px;
     }
     .titulo__lista {
-        width: 70%;
+        width: 60%;
+        gap: 20px;
     }
     .titulo__lista-nombre {
         font-size: 12px;
@@ -833,7 +834,7 @@ body {
     .skill__estudio {
         flex-wrap: wrap;
         justify-content: center;
-        margin: 15px
+        margin: 25px
     }
 
     .education {
@@ -845,15 +846,16 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         width: 90%;
+        margin: 20px;
     }
     .education__alura {
-        width: 80%;
+        width: auto;
     }
     .education__universidad {
-        width: 80%;
+        width: auto;
     }
     .education__coder {
-        width: 80%;
+        width: auto;
     }
     .proyecto__1-imagen{ 
         width: 350px;
