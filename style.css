@@ -623,6 +623,12 @@ body {
 
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
 .contacto__container-titulo {
 
     color: #eef4ed;
@@ -671,7 +677,7 @@ body {
     background-color: #eef4ed;
     color: #243141;
     font-size: 12px;
-    margin: 0px 0px 0px 220px;
+    align-self: center;
 }
 
 /* footer */
@@ -883,8 +889,5 @@ body {
     }
     #msg {
         width: 14rem;
-    }
-    .form__btn-texto {
-        align-self: center;
     }
 }
