@@ -371,7 +371,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     gap: 16px;
 
 }
@@ -461,7 +461,7 @@ body {
 .education__study h3 {
 
     color:#eef4ed;
-    width: 72%;
+    width: 90%;
     font-size: 14px;
     font-weight: 700;
     margin: 5px;
@@ -517,7 +517,6 @@ body {
 
     width: 550px;
     height: 350px;
-    align-self: stretch;
     
 }
 
@@ -690,6 +689,80 @@ body {
 
 /* Responsive Tablet */
 
+@media (max-width:1366px) {
+
+    .education__study {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .education__alura {
+        width: 30%;
+    }
+
+    .education__universidad {
+        width: 30%;
+    }
+
+    .education__coder {
+        width: 30%;
+    }
+
+    .education__uni-imagen {
+        width: 199px;
+        height: 176px;
+    }
+
+    .education__alura-imagen {
+        width: 199px;
+        height: 176px;
+    }
+
+    .education__coder-imagen {
+        width: 199px;
+        height: 176px;
+    }
+
+    .education__study h3 {
+        width: 97%;
+    }
+
+    .proyecto__1 {
+
+        flex-direction: column;
+
+    }
+
+    .proyecto__1-titulo {
+
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-between;
+
+    }
+
+    .proyecto__1-titulo p{
+
+        display: none;
+
+    }
+
+    .contacto__container-form {
+
+        width: 80%;
+
+    }
+    .contacto-form {
+        padding: 0px;
+    }
+
+    .form__btn-texto {
+        margin: 0px 0px 0px 200px;
+    }
+
+}
+
+@media (max-width:812px) {
 
 
-
+}
