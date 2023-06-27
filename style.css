@@ -200,7 +200,7 @@ body {
     width: 80%;
     align-items: flex-start;
     gap: 2px;
-    padding-left: 150px;
+    padding-left: 13%;
     color: #eef4ed;
 
 }
@@ -255,6 +255,7 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 30px;
+    width: 90%;
 
 }
 
@@ -636,26 +637,26 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    width: auto;
+    width: 100%;
     list-style: none;
 
 }
 
 #name {
-    width: 500px;
+    width: 31rem;
     padding: 10px;
 }
 
 #mail {
 
-    width: 500px;
+    width: 31rem;
     padding: 10px;
 
 }
 
 #msg {
 
-    width: 500px;
+    width: 31rem;
     height: 170px;
     padding: 10px;
 
@@ -691,78 +692,164 @@ body {
 
 @media (max-width:1366px) {
 
+    .header {
+        height: 22px;
+        padding: 25px 0px;
+    }
+
+    .titulo__container {
+        width: 500px;
+        height: 600px;
+    }
+
     .education__study {
         width: 100%;
         gap: 30px;
     }
-
+    
     .education__alura {
         width: 30%;
     }
-
+    
     .education__universidad {
         width: 30%;
     }
-
+    
     .education__coder {
         width: 30%;
     }
-
+    
     .education__uni-imagen {
         width: 199px;
         height: 176px;
     }
-
+    
     .education__alura-imagen {
-        width: 199px;
+         width: 199px;
         height: 176px;
     }
-
+    
     .education__coder-imagen {
         width: 199px;
         height: 176px;
     }
-
+    
     .education__study h3 {
         width: 97%;
     }
-
+    
     .proyecto__1 {
-
+    
         flex-direction: column;
         width: 90%;
     }
-
+    
     .proyecto__1-titulo {
-
+    
         flex-direction: row;
         width: 70%;
         justify-content: space-around;
-
+    
     }
-
-    .proyecto__1-titulo p{
-
+    
+    .proyecto__1-titulo p {
+    
         display: none;
-
-    }
-
+    
+     }
+    
     .contacto__container-form {
-
+    
         width: 80%;
-
+    
     }
+    
     .contacto-form {
         padding: 0px;
     }
-
+    
     .form__btn-texto {
         margin: 0px 0px 0px 200px;
-    }
+     }
+    
 
 }
 
-@media (max-width:812px) {
+@media (max-width:700px) {
 
+    .header {
+        height: 20px;
+    }
 
+    .header__lista-nombre {
+        display: none;
+    }
+    .responsive-menu {
+
+        display: block; 
+        padding-right: 20px;
+    }
+
+    .sobremi__parrafo {
+        width: 100%;
+    }
+    .sobremi__firma {
+        width: 25%;
+        height: 50%;
+    }
+
+    .skill {
+        height: 600px;
+
+    }
+
+    .skill__estudio {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .education {
+
+        height: 720px;
+
+    }
+    .education__study {
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 90%;
+    }
+    .education__alura {
+        width: 48%;
+    }
+    .education__universidad {
+        width: 45%;
+    }
+    .education__coder {
+        width: 45%;
+    }
+    .proyecto__1-titulo {
+        width: 90%;
+    }
+    .proyecto__1-titulo h4 {
+        font-size: 19px;
+    }
+    .form {
+        display: flex;
+        align-items: flex-start;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    #name {
+        width: 245%;
+    }
+    #mail {
+        width: 245%;
+    }
+    #msg {
+        width: 215%;
+    }
+    .form__btn-texto {
+        margin: 0px 0px 0px 160px
+    }
 }
