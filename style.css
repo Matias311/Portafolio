@@ -69,6 +69,14 @@ body {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
+    transition: .5s;
+
+}
+
+.header__lista-nombre:hover {
+
+    color: #4b6387;
+
 }
 
 .responsive-menu {
@@ -167,7 +175,14 @@ body {
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
-    
+    transition: .5s;
+
+}
+
+.titulo__lista-nombre:hover {
+
+    color: #4b6387;
+
 }
 
 .titulo__lista-imagen {
@@ -563,7 +578,13 @@ body {
     padding: 16px;
     background-color: transparent;
     border: 1px solid #eef4ed;
-    
+    transition: .5s;
+
+}
+
+.proyecto__1-botones-repositorio:hover {
+
+    background-color: #4b6387;
 }
 
 .proyecto__1-titulo-boton-repositorio {
@@ -579,6 +600,12 @@ body {
     padding: 16px;
     background-color: #eef4ed;
     border: 1px solid #eef4ed;
+    transition: .5s;
+}
+
+.proyecto__1-botones-demo:hover {
+
+    background: #4b6387;
 
 }
 
@@ -589,7 +616,6 @@ body {
     text-decoration: none;
 
 }
-
 /* Contacto */
 
 .contacto {
@@ -676,8 +702,16 @@ body {
     padding: 16px;
     background-color: #eef4ed;
     color: #243141;
-    font-size: 12px;
+    font-size: 14px;
     align-self: center;
+    transition: .5s;
+    border: none;
+}
+
+.form__btn-texto:hover {
+
+    background-color: #4b6387;
+    color: #eef4ed;
 }
 
 /* footer */
