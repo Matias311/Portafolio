@@ -256,6 +256,7 @@ body {
     align-items: flex-start;
     gap: 30px;
     width: 90%;
+    justify-content: center;
 
 }
 
@@ -790,6 +791,31 @@ body {
         padding-right: 20px;
     }
 
+    .titulo__container {
+        width: 80%;
+        height: 460px;
+    }
+    .titulo__imagen {
+        width: 200px;
+        height: 200px;
+    }
+    .titulo__titulo {
+        font-size: 20px;
+        width: 80%;
+    }
+    .titulo__sobre-mi{
+        font-size: 15px;
+    }
+    .titulo__lista {
+        width: 70%;
+    }
+    .titulo__lista-nombre {
+        font-size: 12px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
     .sobremi__parrafo {
         width: 100%;
     }
@@ -799,36 +825,43 @@ body {
     }
 
     .skill {
-        height: 600px;
+
+        height: auto;
 
     }
 
     .skill__estudio {
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: center;
+        margin: 15px
     }
 
     .education {
 
-        height: 720px;
+        height: auto;
 
     }
     .education__study {
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: center;
         width: 90%;
     }
     .education__alura {
-        width: 48%;
+        width: 80%;
     }
     .education__universidad {
-        width: 45%;
+        width: 80%;
     }
     .education__coder {
-        width: 45%;
+        width: 80%;
+    }
+    .proyecto__1-imagen{ 
+        width: 350px;
     }
     .proyecto__1-titulo {
         width: 90%;
+        flex-direction: column;
+        align-items: center;
     }
     .proyecto__1-titulo h4 {
         font-size: 19px;
@@ -841,15 +874,15 @@ body {
     }
 
     #name {
-        width: 245%;
+        width: 150%;
     }
     #mail {
-        width: 245%;
+        width: 150%;
     }
     #msg {
-        width: 215%;
+        width: 130%;
     }
     .form__btn-texto {
-        margin: 0px 0px 0px 160px
+        margin: 0px 0px 0px 80px;
     }
 }
