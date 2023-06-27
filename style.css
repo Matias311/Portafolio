@@ -85,13 +85,12 @@ body {
 
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding: 61px 12px;
+    height: 100%;
     justify-content: center;
     align-items: center;
     gap: 9px;
     flex-shrink: 0;
-    background: url(Imagenes/prueba\ fondo\ .jpeg), lightblue 50% /cover no-repeat;
+    background: url(Imagenes/prueba\ fondo\ .jpeg), lightblue 50% /cover;
 
 }
 
@@ -188,7 +187,7 @@ body {
     width: auto;
     height: 300px;
     padding: 64px;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     background: #243141;
     box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.05) inset;
@@ -200,9 +199,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 886px;
-    padding: 0px 345px 0px 0px;
     align-items: flex-start;
-    gap: 16px;
+    gap: 2px;
+    padding-left: 150px;
     color: #eef4ed;
 
 }
@@ -352,8 +351,8 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 500px;
-    padding: 82px;
+    height: 520px;
+    padding: 20px;
     align-items: center;
     gap: 32px;
     background: rgba(75, 99, 135, 0.70);
@@ -389,7 +388,7 @@ body {
 .education__alura-imagen {
 
     display: flex;
-    width: 368px;
+    width: 300px;
     height: 286px;
     padding: 16px;
     justify-content: center;
@@ -410,7 +409,7 @@ body {
 .education__uni-imagen {
 
     display: flex;
-    width: 368px;
+    width: 300px;
     height: 286px;
     padding: 16px;
     justify-content: center;
@@ -431,7 +430,7 @@ body {
 .education__coder-imagen {
 
     display: flex;
-    width: 368px;
+    width: 300px;
     height: 286px;
     padding: 16px;
     justify-content: center;
@@ -675,20 +674,21 @@ body {
 
 /* Responsive Tablet */
 
-@media (min-width:768px){ 
+@media (min-width:768px) {
 
     .titulo {
 
-        width: 90rem;
+
+
     }
 
 }
 
-@media (min-width:375px) {
+@media (min-width:425px) {
 
     .titulo {
 
-        width: 90rem;
+       
     }
 
 }
