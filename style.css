@@ -804,7 +804,7 @@ body {
     }
     .titulo__lista {
         width: 60%;
-        gap: 7px;
+        gap: 9px;
     }
     .titulo__lista-nombre {
         font-size: 12px;
@@ -883,5 +883,8 @@ body {
     }
     #msg {
         width: 14rem;
+    }
+    .form__btn-texto {
+        align-self: center;
     }
 }
