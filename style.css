@@ -730,7 +730,7 @@ body {
     .proyecto__1 {
 
         flex-direction: column;
-
+        width: 90%;
     }
 
     .proyecto__1-titulo {
