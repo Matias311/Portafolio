@@ -704,7 +704,7 @@ body {
     }
 
     .education__study {
-        width: 100%;
+        width: 90%;
         gap: 30px;
     }
     
@@ -873,14 +873,18 @@ body {
         flex-direction: column;
     }
 
+    .contacto-form {
+        align-items: center;
+    }
+
     #name {
-        width: 15rem;
+        width: 14rem;
     }
     #mail {
-        width: 15rem;
+        width: 14rem;
     }
     #msg {
-        width: 15rem;
+        width: 14rem;
     }
     .form__btn-texto {
         margin: 0px 0px 0px 80px;
