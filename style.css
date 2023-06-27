@@ -874,13 +874,13 @@ body {
     }
 
     #name {
-        width: 150%;
+        width: 15rem;
     }
     #mail {
-        width: 150%;
+        width: 15rem;
     }
     #msg {
-        width: 130%;
+        width: 15rem;
     }
     .form__btn-texto {
         margin: 0px 0px 0px 80px;
