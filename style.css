@@ -808,7 +808,7 @@ body {
     }
     .titulo__lista {
         width: 60%;
-        gap: 20px;
+        gap: 10px;
     }
     .titulo__lista-nombre {
         font-size: 12px;
