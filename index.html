@@ -10,17 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="header/header.css" />
-    <link rel="stylesheet" href="titulo/titulo.css" />
-    <link rel="stylesheet" href="sobre-mi/sobre-mi.css" />
-    <link rel="stylesheet" href="Skill/skill.css" />
-    <link rel="stylesheet" href="educacion/educacion.css" />
-    <link rel="stylesheet" href="Proyectos/proyectos.css" />
-    <link rel="stylesheet" href="contacto/contacto.css" />
-    <link rel="stylesheet" href="footer/footer.css" />
-    <link rel="stylesheet" href="ajustes.css">
-    <link rel="stylesheet" href="header/header-responsive.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
@@ -34,7 +24,13 @@
         <li><a href="#" class="header__lista-nombre">Formación</a></li>
         <li><a href="#" class="header__lista-nombre">Proyectos</a></li>
         <li><a href="#" class="header__lista-nombre">Contacto</a></li>
-        <li><img src="Imagenes/menu-icon.png" alt="menu" class="responsive-menu"></li>
+        <li class="nav-responsive">
+          <img
+            src="Imagenes/menu-icon.png"
+            alt="menu"
+            class="responsive-menu"
+          />
+        </li>
       </ul>
     </header>
     <section class="titulo">
@@ -165,12 +161,11 @@
       </div>
     </section>
     <section class="contacto">
-      <div class="contacto__imagen"></div>
       <div class="contacto__container-form">
         <div class="contacto__container-form-texto">
           <h1 class="contacto__container-titulo">Contacto</h1>
         </div>
-        <form action="/my-handling-form-page" method="post">
+        <form action="/my-handling-form-page" method="post" class="form">
           <ul class="contacto-form">
             <li class="form__name">
               <input
