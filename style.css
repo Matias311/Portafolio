@@ -10,8 +10,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding: 0%;
     margin: 0%;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -105,7 +105,7 @@ body {
     flex-shrink: 0;
     border-radius: 20px;
     background-color: #243141;
-    box-shadow: 5px 5px 40px 0px rgba(0, 0, 0, 0.25) inset, 5px 5px 4px 0px, rgba(0, 0, 0, 0.25);
+    margin: 140px 0px 50px 0px;
 
 }
 
@@ -184,9 +184,8 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: 300px;
-    padding: 64px;
+    width: 100%;
+    height: 350px;
     align-items: flex-start;
     gap: 10px;
     background: #243141;
@@ -198,7 +197,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: 886px;
+    width: 80%;
     align-items: flex-start;
     gap: 2px;
     padding-left: 150px;
@@ -216,15 +215,15 @@ body {
 
 .sobremi__parrafo {
 
-    color: 16px;
-    width: 751px;
+    width: 60%;
 
 }
 
 .sobremi__firma {
 
-    width: 140px;
-    height: 140px;
+    width: 15%;
+    height: 40%;
+
 
 }
 
@@ -234,9 +233,8 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     height: 400px;
-    padding: 64px;
     align-items: center;
     gap: 32px;
     background: #243141;
@@ -350,9 +348,8 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
     height: 520px;
-    padding: 20px;
     align-items: center;
     gap: 32px;
     background: rgba(75, 99, 135, 0.70);
@@ -372,7 +369,9 @@ body {
 .education__study {
 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
     gap: 16px;
 
 }
@@ -382,14 +381,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 26%;
 
 }
 
 .education__alura-imagen {
 
     display: flex;
-    width: 300px;
-    height: 286px;
+    width: 250px;
+    height: 200px;
     padding: 16px;
     justify-content: center;
     align-items: center;
@@ -403,19 +403,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 26%;
 
 }
 
 .education__uni-imagen {
 
     display: flex;
-    width: 300px;
-    height: 286px;
+    width: 250px;
+    height: 200px;
     padding: 16px;
     justify-content: center;
     align-items: center;
     gap: 1px;
     background-color: #fff;
+
+}
+
+.education__uni-imagen-1 {
+
+    width: 200px;
+    height: 200px;
 
 }
 
@@ -424,14 +432,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 26%;
 
 }
 
 .education__coder-imagen {
 
     display: flex;
-    width: 300px;
-    height: 286px;
+    width: 250px;
+    height: 200px;
     padding: 16px;
     justify-content: center;
     align-items: center;
@@ -440,13 +449,20 @@ body {
 
 }
 
+.education__coder-imagen-1 {
+
+    width: 200px;
+    height: 200px;
+
+}
+
 
 
 .education__study h3 {
 
     color:#eef4ed;
-    width: 350px;
-    font-size: 17px;
+    width: 72%;
+    font-size: 14px;
     font-weight: 700;
     margin: 5px;
 
@@ -455,7 +471,7 @@ body {
 .education__study p {
 
     color: #eef4ed;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     margin: 0px;
     padding-left: 6px;
@@ -489,16 +505,18 @@ body {
 .proyecto__1 {
 
     display: flex;
-    width: 1136px;
-    height: 406px;
+    width: 100%;
+    height: 350px;
     align-items: center;
+    justify-content: center;
     gap: 16px;
 
 }
 
 .proyecto__1-imagen {
 
-    width: 752px;
+    width: 550px;
+    height: 350px;
     align-self: stretch;
     
 }
@@ -534,7 +552,6 @@ body {
 .proyecto__1-botones {
 
     display: flex;
-    width: 560px;
     align-items: flex-start;
     gap: 16px;
 
@@ -577,9 +594,8 @@ body {
 .contacto {
 
     display: flex;
-    width: auto;
+    width: 100%;
     height: 834px;
-    padding: 64px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -594,8 +610,8 @@ body {
 
     display: flex;
     flex-direction: column;
-    width: 820px;
-    height: 699px;
+    width: 50%;
+    height: 70%;
     padding: 26px 0px 0px 0px;
     justify-content: center;
     align-items: center;
@@ -674,23 +690,6 @@ body {
 
 /* Responsive Tablet */
 
-@media (min-width:768px) {
 
-    .titulo {
-
-
-
-    }
-
-}
-
-@media (min-width:425px) {
-
-    .titulo {
-
-       
-    }
-
-}
 
 
