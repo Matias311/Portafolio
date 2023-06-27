@@ -665,7 +665,7 @@ body {
 
 .form__btn-texto {
 
-    display: inline-block;
+    display: inline-flex;
     height: 55px;
     padding: 16px;
     background-color: #eef4ed;
@@ -769,10 +769,6 @@ body {
         padding: 0px;
     }
     
-    .form__btn-texto {
-        margin: 0px 0px 0px 200px;
-     }
-    
 
 }
 
@@ -808,7 +804,7 @@ body {
     }
     .titulo__lista {
         width: 60%;
-        gap: 10px;
+        gap: 7px;
     }
     .titulo__lista-nombre {
         font-size: 12px;
@@ -846,7 +842,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         width: 90%;
-        margin: 20px;
+        margin: 22px;
     }
     .education__alura {
         width: auto;
@@ -887,8 +883,5 @@ body {
     }
     #msg {
         width: 14rem;
-    }
-    .form__btn-texto {
-        margin: 0px 0px 0px 80px;
     }
 }
