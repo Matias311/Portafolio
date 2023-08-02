@@ -28,8 +28,18 @@
         <li><a href="#proyectos" class="header__lista-nombre">Proyectos</a></li>
         <li><a href="#contacto" class="header__lista-nombre">Contacto</a></li>
       </ul>
-      <img src="Imagenes/menu-icon.png" alt="menu" class="responsive-menu" id="menuHamburgesa" />
-      <img src="Imagenes/icons8-close-48.png" alt="cerrar" class="responsive-menu-exit" id="salir" >
+      <img
+        src="Imagenes/menu-icon.png"
+        alt="menu"
+        class="responsive-menu"
+        id="menuHamburgesa"
+      />
+      <img
+        src="Imagenes/icons8-close-48.png"
+        alt="cerrar"
+        class="responsive-menu-exit"
+        id="salir"
+      />
     </header>
     <section class="titulo" id="titulo">
       <div class="titulo__container">
@@ -187,36 +197,30 @@
         <div class="contacto__container-form-texto">
           <h1 class="contacto__container-titulo">Contacto</h1>
         </div>
-        <form class="form">
-          <ul class="contacto-form">
-            <li class="form__name">
-              <input
-                type="text"
-                id="name"
-                name="user_name"
-                placeholder="Nombre"
-                required
-              />
-            </li>
-            <li class="form__email">
-              <input
-                type="email"
-                id="mail"
-                name="user_mail"
-                placeholder="Correo electrónico"
-                required
-              />
-            </li>
-            <li class="form__msg">
-              <textarea
-                id="msg"
-                name="user_message"
-                placeholder="Mensaje"
-                required
-              ></textarea>
-            </li>
-          </ul>
-          <button class="form__btn-texto" type="submit">Enviar mensaje</button>
+        <form class="form" id="form">
+          <input
+            type="text"
+            id="name"
+            class="nick"
+            name="user_name"
+            placeholder="Nombre"
+          />
+
+          <input
+            type="email"
+            id="mail"
+            class="email"
+            name="user_mail"
+            placeholder="Correo electrónico"
+          />
+
+          <textarea
+            id="msg"
+            name="user_message"
+            placeholder="Mensaje"
+          ></textarea>
+
+          <button class="form__btn-texto" type="submit" id="btn">Enviar mensaje</button>
         </form>
       </div>
     </section>
@@ -225,5 +229,6 @@
       <p>2023</p>
     </footer>
     <script src="nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

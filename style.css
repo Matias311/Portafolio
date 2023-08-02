@@ -671,6 +671,8 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
+    gap: 10px;
+
 }
 
 .contacto__container-titulo {
@@ -693,7 +695,7 @@ body {
 
 }
 
-#name {
+.nick {
     width: 31rem;
     padding: 10px;
     outline: none;
@@ -701,7 +703,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#mail {
+.email {
 
     width: 31rem;
     padding: 10px;
@@ -720,6 +722,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.form__error {
+
+    border: 2px solid #ff0000;
+
+}
+
 .form__btn-texto {
 
     display: inline-flex;
@@ -731,6 +739,8 @@ body {
     align-self: center;
     transition: .5s;
     border: none;
+    cursor: pointer;
+    
 }
 
 .form__btn-texto:hover {
@@ -860,6 +870,7 @@ body {
         padding: 10px 40px;
         border: 1px solid #4b6387;
         border-top: none;
+        border-right: none;
 
     }
 
@@ -895,7 +906,7 @@ body {
         margin-right: 10px;
         width: 24px;
         height: 24px;
-        
+
     }
 
     .titulo__container {
