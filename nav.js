@@ -61,11 +61,37 @@ inputs.forEach((input) => {
 });
 
 
-formulario.addEventListener('submit', (e) => {
 
-    e.preventDefault();
+    /* Extraer datos del form */
 
-});
+const procesarTodo = (event) => {
+
+    const datos = new FormData(formulario);
+    const datosCompletos = Object.fromEntries(datos.entries()); 
+    formulario.reset();
+    return datosCompletos;
+}
+
+const postData = async () => {
+
+    const newUser = procesarTodo();
+
+    try {
+        const response = await fetch ('http://localhost:3000/users', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(newUser)
+        })
+        if (response.ok) {
+            const jsonResponse = await response.json();
+            const {mail, name} = jsonResponse;
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+
 
 const boton = document.getElementById('btn');
 const name0 = document.getElementById('name');
@@ -73,71 +99,10 @@ const msg0 = document.getElementById('msg');
 const mail0 = document.getElementById('mail');
 
 
-boton.addEventListener('click', () => {
+boton.addEventListener('click', (event) => {
 
-    if (name0.value.length == 0) {
-        
-        Swal.fire({
+    event.preventDefault();
+    postData();
 
-            position: 'center',
-            icon: 'error',
-            title: 'Complete el campo',
-            showConfirmButton: false,
-            timer: 1500
-        })        
-
-    } else {
-        Swal.fire({
-
-            position: 'center',
-            icon: 'success',
-            title: 'Formulario enviado correctamente',
-            showConfirmButton: false,
-            timer: 1500
-        })
-    }
-       if (mail0.value.length == 0) {
-        
-        Swal.fire({
-
-            position: 'center',
-            icon: 'error',
-            title: 'Complete el campo',
-            showConfirmButton: false,
-            timer: 1500
-        })        
-
-    } else {
-        Swal.fire({
-
-            position: 'center',
-            icon: 'success',
-            title: 'Formulario enviado correctamente',
-            showConfirmButton: false,
-            timer: 1500
-        })
-    }
-       if (msg0.value.length == 0) {
-        
-        Swal.fire({
-
-            position: 'center',
-            icon: 'error',
-            title: 'Complete el campo',
-            showConfirmButton: false,
-            timer: 1500
-        })        
-
-    } else {
-        Swal.fire({
-
-            position: 'center',
-            icon: 'success',
-            title: 'Formulario enviado correctamente',
-            showConfirmButton: false,
-            timer: 1500
-        })
-    }
 })
 
-    
