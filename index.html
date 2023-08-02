@@ -15,15 +15,18 @@
   <body>
     <header class="header">
       <div class="header__div-icono">
-        <h4 class="header__nombre">Matias Arias</h4>
-        <img src="Imagenes/zorro.png" alt="icono" class="header__logo" />
+        <a href="#titulo" class="header__div-icono">
+          <h4 class="header__nombre">Matias Arias</h4>
+          <img src="Imagenes/zorro.png" alt="icono" class="header__logo" />
+        </a>
       </div>
       <ul class="header__lista">
-        <li><a href="#" class="header__lista-nombre">Sobre mi</a></li>
-        <li><a href="#" class="header__lista-nombre">Skills</a></li>
-        <li><a href="#" class="header__lista-nombre">Formación</a></li>
-        <li><a href="#" class="header__lista-nombre">Proyectos</a></li>
-        <li><a href="#" class="header__lista-nombre">Contacto</a></li>
+        <li><a href="#titulo" class="header__lista-nombre">Inicio</a></li>
+        <li><a href="#sobremi" class="header__lista-nombre">Sobre mi</a></li>
+        <li><a href="#skill" class="header__lista-nombre">Skills</a></li>
+        <li><a href="#education" class="header__lista-nombre">Formación</a></li>
+        <li><a href="#proyectos" class="header__lista-nombre">Proyectos</a></li>
+        <li><a href="#contacto" class="header__lista-nombre">Contacto</a></li>
         <li class="nav-responsive">
           <img
             src="Imagenes/menu-icon.png"
@@ -33,17 +36,19 @@
         </li>
       </ul>
     </header>
-    <section class="titulo">
+    <section class="titulo" id="titulo">
       <div class="titulo__container">
         <img src="Imagenes/yo.jpeg" alt="persona" class="titulo__imagen" />
         <h2 class="titulo__titulo">Hey, Soy Matias Arias</h2>
         <p class="titulo__sobre-mi">
-          Actualmente estudiante administracion en empresas y desarrollador
-          web.
+          Actualmente estudiante administracion en empresas y desarrollador web.
         </p>
         <ul class="titulo__lista">
           <li>
-            <a href="#" class="titulo__lista-nombre"
+            <a
+              href="https://github.com/Matias311"
+              target="_blank"
+              class="titulo__lista-nombre"
               >Github<img
                 class="titulo__lista-imagen"
                 src="Imagenes/vector.png"
@@ -51,7 +56,10 @@
             /></a>
           </li>
           <li>
-            <a href="#" class="titulo__lista-nombre"
+            <a
+              href="https://www.linkedin.com/in/arias-matias/"
+              target="_blank"
+              class="titulo__lista-nombre"
               >Linkedin<img
                 class="titulo__lista-imagen"
                 src="Imagenes/vector.png"
@@ -59,7 +67,10 @@
             /></a>
           </li>
           <li>
-            <a href="#" class="titulo__lista-nombre"
+            <a
+              href="https://drive.google.com/file/d/1r9wUEtpIx4ret4prVrpAdGLutPcLSvCc/view?usp=drive_link"
+              target="_blank"
+              class="titulo__lista-nombre"
               >Curriculum<img
                 class="titulo__lista-imagen"
                 src="Imagenes/vector.png"
@@ -69,11 +80,14 @@
         </ul>
       </div>
     </section>
-    <section class="sobremi">
+    <section class="sobremi" id="sobremi">
       <div class="sobremi__container">
         <h3 class="sobremi__titulo">Sobre mi</h3>
         <p class="sobremi__parrafo">
-          Apacionado por la tecnologia,emprendimiento y las finanzas personales. Me encanta el desarrollo personal y los desafios, intento mejorar dia a dia para lograr mis objetivos y ser una mejor persona tanto fisica, espiritual y financieramente.
+          Apacionado por la tecnologia,emprendimiento y las finanzas personales.
+          Me encanta el desarrollo personal y los desafios, intento mejorar dia
+          a dia para lograr mis objetivos y ser una mejor persona tanto fisica,
+          espiritual y financieramente.
         </p>
         <img
           src="Imagenes/firma.jpeg"
@@ -82,7 +96,7 @@
         />
       </div>
     </section>
-    <section class="skill">
+    <section class="skill" id="skill">
       <h1 class="skill__titulo">Skills</h1>
       <div class="skill__estudio">
         <div class="skill_html">
@@ -107,7 +121,7 @@
         </div>
       </div>
     </section>
-    <section class="education">
+    <section class="education" id="education">
       <h1 class="education__titulo">Formacion academica</h1>
       <div class="education__study">
         <div class="education__alura">
@@ -115,25 +129,33 @@
             <img src="Imagenes/alura_logo.png" alt="alura_logo" />
           </div>
           <h3>Formacion desarrollador front-end</h3>
-          <p>2023 - alura</p>
+          <p>2023 - Alura Latam - Oracle One</p>
         </div>
         <div class="education__universidad">
           <div class="education__uni-imagen">
-            <img src="Imagenes/logo-andresbello.png" alt="logo-universidad" class="education__uni-imagen-1"/>
+            <img
+              src="Imagenes/logo-andresbello.png"
+              alt="logo-universidad"
+              class="education__uni-imagen-1"
+            />
           </div>
-          <h3>kinesiologia</h3>
+          <h3>Ingenieria en Administracion de empresas</h3>
           <p>Aun en curso - UNAB</p>
         </div>
         <div class="education__coder">
           <div class="education__coder-imagen">
-            <img src="Imagenes/logo-andresbello.png" alt="logo-universidad" class="education__coder-imagen-1"/>
+            <img
+              src="Imagenes/logo-coder-house.png"
+              alt="logo-universidad"
+              class="education__coder-imagen-1"
+            />
           </div>
           <h3>Desarrollo web</h3>
           <p>Aun en curso - Coderhouse</p>
         </div>
       </div>
     </section>
-    <section class="proyectos">
+    <section class="proyectos" id="proyectos">
       <h1 class="proyectos__titulo">Experiencia profesional</h1>
       <div class="proyecto__1">
         <img
@@ -146,23 +168,31 @@
           <p>Challenge Oracle</p>
           <div class="proyecto__1-botones">
             <button class="proyecto__1-botones-repositorio">
-              <a href="#" class="proyecto__1-titulo-boton-repositorio"
+              <a
+                href="https://github.com/Matias311/Challenge-Prueba-Mia"
+                target="_blank"
+                class="proyecto__1-titulo-boton-repositorio"
                 >Repositorio</a
               >
             </button>
             <button class="proyecto__1-botones-demo">
-              <a href="#" class="proyecto__1-titulo-boton-demo">Ver demo</a>
+              <a
+                href="https://matias311.github.io/Challenge-Prueba-Mia/"
+                target="_blank"
+                class="proyecto__1-titulo-boton-demo"
+                >Ver demo</a
+              >
             </button>
           </div>
         </div>
       </div>
     </section>
-    <section class="contacto">
+    <section class="contacto" id="contacto">
       <div class="contacto__container-form">
         <div class="contacto__container-form-texto">
           <h1 class="contacto__container-titulo">Contacto</h1>
         </div>
-        <form action="/my-handling-form-page" method="post" class="form">
+        <form class="form">
           <ul class="contacto-form">
             <li class="form__name">
               <input
@@ -170,6 +200,7 @@
                 id="name"
                 name="user_name"
                 placeholder="Nombre"
+                required
               />
             </li>
             <li class="form__email">
@@ -178,6 +209,7 @@
                 id="mail"
                 name="user_mail"
                 placeholder="Correo electrónico"
+                required
               />
             </li>
             <li class="form__msg">
@@ -185,10 +217,11 @@
                 id="msg"
                 name="user_message"
                 placeholder="Mensaje"
+                required
               ></textarea>
             </li>
           </ul>
-          <button class="form__btn-texto">Enviar mensaje</button>
+          <button class="form__btn-texto" type="submit">Enviar mensaje</button>
         </form>
       </div>
     </section>

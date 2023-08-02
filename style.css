@@ -22,7 +22,7 @@ body {
     display: flex;
     height: 40px;
     width: 100%;
-    padding: 32px 0px;
+    padding: 22px 0px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -37,7 +37,9 @@ body {
     align-items: center;
     gap: 8px;
     padding-left: 10px;
+    text-decoration: none;
 }
+
 
 .header__nombre {
 
@@ -60,6 +62,7 @@ body {
     align-items: center;
     gap: 32px;
     list-style: none;
+    padding-right: 5px;
 
 }
 
@@ -386,10 +389,10 @@ body {
 .education__study {
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 90%;
-    gap: 16px;
+    gap: 30px;
 
 }
 
@@ -398,7 +401,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 26%;
+    width: 19%;
 
 }
 
@@ -420,7 +423,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 26%;
+    width: 19%;
 
 }
 
@@ -449,7 +452,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 26%;
+    width: 19%;
 
 }
 
@@ -468,8 +471,8 @@ body {
 
 .education__coder-imagen-1 {
 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
 
 }
 
@@ -678,13 +681,18 @@ body {
 #name {
     width: 31rem;
     padding: 10px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #mail {
 
     width: 31rem;
     padding: 10px;
-
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #msg {
@@ -692,14 +700,16 @@ body {
     width: 31rem;
     height: 170px;
     padding: 10px;
-
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .form__btn-texto {
 
     display: inline-flex;
     height: 55px;
-    padding: 16px;
+    padding: 19px;
     background-color: #eef4ed;
     color: #243141;
     font-size: 14px;
@@ -887,9 +897,23 @@ body {
     .education__alura {
         width: auto;
     }
+
+    .education__alura-imagen {
+
+        align-self: center;
+        
+    }
+
     .education__universidad {
         width: auto;
     }
+
+    .education__uni-imagen {
+
+        align-self: center;
+
+    }
+
     .education__coder {
         width: auto;
     }
