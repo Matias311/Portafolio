@@ -62,7 +62,7 @@ body {
     align-items: center;
     gap: 32px;
     list-style: none;
-    padding-right: 5px;
+    padding-right: 40px;
 
 }
 
@@ -82,10 +82,25 @@ body {
 
 }
 
+.responsive-check {
+
+    width: 24px;
+    height: 24px;
+    display: none;
+
+}
+
 .responsive-menu {
 
     width: 24px;
     height: 24px;
+    display: none;
+    cursor: pointer;
+
+}
+
+.responsive-menu-exit {
+
     display: none;
 
 }
@@ -822,19 +837,65 @@ body {
 
 }
 
+    /* Mobile */
+
 @media (max-width:700px) {
 
     .header {
+
         height: 20px;
+
     }
 
-    .header__lista-nombre {
-        display: none;
+    .header__lista {
+
+        opacity: 0;
+        visibility: hidden;
+        flex-direction: column;
+        position: absolute;
+        top: 54px;
+        right: 0;
+        background-color: #243141;
+        height: 300px;
+        padding: 10px 40px;
+        border: 1px solid #4b6387;
+        border-top: none;
+
     }
+
+    .header__lista-active {
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+
     .responsive-menu {
 
-        display: block; 
-        padding-right: 20px;
+        display:flex;
+        margin-right: 10px;
+
+    }
+
+    .responsive-menu-activo {
+
+        display: none;
+
+    }
+
+    .responsive-menu-exit {
+
+        display: none;
+
+    }
+
+    .responsive-menu-exit-activo {
+
+        display: flex;
+        margin-right: 10px;
+        width: 24px;
+        height: 24px;
+        
     }
 
     .titulo__container {
@@ -901,7 +962,7 @@ body {
     .education__alura-imagen {
 
         align-self: center;
-        
+
     }
 
     .education__universidad {
